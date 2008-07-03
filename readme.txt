@@ -2,8 +2,8 @@
 Contributors: sillybean
 Tags: admin
 Requires at least: 2.3
-Tested up to: 2.51
-Stable tag: 1.0
+Tested up to: 2.6
+Stable tag: 1.1
 
 
 Displays a small home icon next to the designated home page under Manage &rarr; Pages.
