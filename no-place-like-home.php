@@ -4,13 +4,14 @@ Plugin Name: No Place Like Home
 Plugin URI: http://sillybean.net/code/no-place-like-home/
 Description: Displays a small home icon next to the designated home page under <a href="edit-pages.php">Manage &rarr; Pages</a>.
 Author: Stephanie Leary
-Version: 1.1
+Version: 1.2
 Author URI: http://sillybean.net/
 */ 
 
 /*
 CHANGELOG:
-	
+
+1.2: WP 2.7 compatibility	
 1.1: WP 2.6 compatibility
 */
 
@@ -26,7 +27,11 @@ function no_place_like_home_css() {
 		
 		echo '<style type="text/css">';
 		
-		if (function_exists('add_meta_box')) {
+		if (function_exists('get_search_form')) {
+		 	// 2.7
+		 	echo 'tr#page-'.$pageID.' a.row-title { background: url('.$plugin_path.'/home.png) top left no-repeat; padding-left: 20px; }';
+		} 
+		elseif (function_exists('add_meta_box')) {
 		 	// 2.5 
 		 	echo 'tr#page-'.$pageID.' a.row-title { background: url('.$plugin_path.'/home.png) center left no-repeat; }';
 			echo 'a.row-title { padding-left: 19px; margin-left: -19px; display: block; }';
