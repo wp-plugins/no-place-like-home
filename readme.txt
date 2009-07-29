@@ -2,7 +2,7 @@
 Contributors: sillybean
 Tags: admin
 Requires at least: 2.3
-Tested up to: 2.7
+Tested up to: 2.8.2
 Stable tag: 1.2
 
 
