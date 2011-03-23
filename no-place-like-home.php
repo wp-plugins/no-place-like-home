@@ -2,7 +2,7 @@
 /*
 Plugin Name: No Place Like Home
 Plugin URI: http://sillybean.net/code/no-place-like-home/
-Description: Displays a small home icon next to the designated home page under <a href="edit-pages.php">Manage &rarr; Pages</a>.
+Description: Displays a small home icon next to the designated home page in your <a href="edit.php?post_type=page">Pages</a> administration screen.
 Author: Stephanie Leary
 Version: 1.3
 Author URI: http://sillybean.net/
