@@ -2,22 +2,22 @@
 Contributors: sillybean
 Tags: admin
 Requires at least: 2.3
-Tested up to: 2.8.2
-Stable tag: 1.2
+Tested up to: 3.1
+Stable tag: 1.3
 
 
-Displays a small home icon next to the designated home page under Manage &rarr; Pages.
+Displays a small home icon next to the designated home page in your Pages admin screen.
 
 == Description ==
 
-Displays a small home icon next to the designated home page under Manage &rarr; Pages.
+Displays a small home icon next to the designated home page in your Pages admin screen.
 
 == Installation ==
 
 1. Upload the `no-place-like-home` directory to `/wp-content/plugins/` 
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-If your blog is set to show a page instead of posts as the site's home page, a small icon should now appear next to the home page under Manage &rarr; Pages.
+If your blog is set to show a page instead of posts as the site's home page, a small icon should now appear next to the home page under Pages.
 
 == Screenshots ==
 
