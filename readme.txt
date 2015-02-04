@@ -5,6 +5,7 @@ Donate link: http://stephanieleary.com/code/wordpress/no-place-like-home/
 Requires at least: 3.8
 Tested up to: 4.1
 Stable tag: 1.4
+License: GPLv2 or later
 
 
 Displays a small home icon next to the designated home page in the All Pages list.
