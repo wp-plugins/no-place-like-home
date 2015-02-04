@@ -15,14 +15,14 @@ function no_place_like_home_css() {
 		
 	$pageid = get_option('page_on_front');
 	
-	echo '<style type="text/css">';
-	printf( 'tr#page-%d td.page-title strong:before { 
-		content: "\f102";
-		display: inline-block;
-		-webkit-font-smoothing: antialiased;
-		font: normal 20px/1 "dashicons";
-		vertical-align: top; }', $pageid );
-	echo '</style>';
+	printf( '<style type="text/css">
+		tr#page-%d td.page-title strong:before { 
+			content: "\f102";
+			display: inline-block;
+			-webkit-font-smoothing: antialiased;
+			font: normal 20px/1 "dashicons";
+			vertical-align: top; }
+		</style>', $pageid );
 }
 
 add_action( 'admin_head', 'no_place_like_home_css' );
