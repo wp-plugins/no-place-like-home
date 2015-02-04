@@ -4,7 +4,7 @@ Tags: pages
 Donate link: http://stephanieleary.com/code/wordpress/no-place-like-home/
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 1.4
+Stable tag: 1.4.1
 License: GPLv2 or later
 
 

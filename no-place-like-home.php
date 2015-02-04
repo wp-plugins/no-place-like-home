@@ -2,9 +2,9 @@
 /*
 Plugin Name: No Place Like Home
 Plugin URI: http://sillybean.net/code/no-place-like-home/
-Description: Displays a small home icon next to the designated home page under <a href="edit-pages.php">Manage &rarr; Pages</a>.
+Description: Displays a small home icon next to the designated home page under All Pages.
 Author: Stephanie Leary
-Version: 1.4
+Version: 1.4.1
 Author URI: http://sillybean.net/
 */ 
 
@@ -15,14 +15,14 @@ function no_place_like_home_css() {
 		
 	$pageid = get_option('page_on_front');
 	
-	echo '<style type="text/css">';
-	printf( 'tr#page-%d td.page-title strong:before { 
-		content: "\f102";
-		display: inline-block;
-		-webkit-font-smoothing: antialiased;
-		font: normal 20px/1 "dashicons";
-		vertical-align: top; }', $pageid );
-	echo '</style>';
+	printf( '<style type="text/css">
+		#post-%d a.row-title:before { 
+			content: "\f102";
+			display: inline-block;
+			-webkit-font-smoothing: antialiased;
+			font: normal 18px/1 "dashicons";
+			vertical-align: top; }
+		</style>', $pageid );
 }
 
 add_action( 'admin_head', 'no_place_like_home_css' );
